@@ -32,7 +32,7 @@ a{
 }
 
 aside{
-    width: 20%;
+    width: 25%;
     height: 100vh;
 }
 
@@ -143,11 +143,14 @@ main{
 /* MENU */
 #menu{
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
 }
+
 nav{
-    width: 50%;
-    height: 100%;
+    width: 80%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,7 +158,7 @@ nav{
 }
 
 .NavOption{
-    width: 100%;
+    width: 80%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -168,6 +171,33 @@ nav{
     display: flex;
     align-items: center;
 }
+
+#userProfileMenu{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.5s;
+}
+
+.userInfoMenu{
+    display: flex;
+    align-items: center;
+}
+
+.UserPhotoMenu{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: 0px 20px;
+}
+.UserPhotoMenu img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
 
 /* FEED */
 #feed{
@@ -285,8 +315,8 @@ button:hover{
     background-color: #47afef;
 }
 
-.NavOption:hover {
+.NavOption:hover, #userProfileMenu:hover {
     background-color: #2b2f35;
     border-radius: 50px;
     transition: 1s;
-}   
+} 
