@@ -1,0 +1,36 @@
+/* FEED */
+#feed{
+    width: 45%;
+}
+
+.back{
+    height: 100%;
+    margin-right:40px;
+}
+.back img{
+    width: 100%;
+    height: 100%;
+}
+
+/* BANNER */
+
+#banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../../images/banners/banner.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.userIconProfile{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: relative;
+}
+.userIconProfile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}

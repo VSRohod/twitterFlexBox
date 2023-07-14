@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="shortcut icon" href="../images/logo/Twitter logo/SVG/Logo blue.svg" type="image/x-icon">
     <link rel="stylesheet" href="../styles/all/style.css">
+    <link rel="stylesheet" href="../styles/userProfile/style.css">
 </head>
 <body>
     <div id="pagina">
@@ -16,7 +17,13 @@
                 </div>
             </div>
             <div id="headerTittle">
-                <!-- User Profile -->
+                <a href="../index.html" class="back">
+                    <img src="../images/icons/Light Theme/Back Arrow.svg" alt="">
+                </a>
+                <div class="UserTagsMenu">
+                    <h3>Dark</h3>
+                    <h6>5.119 Tweets</h6>
+                </div>
             </div>
             <div id="search">
                 <div id="searchBar">
@@ -31,16 +38,16 @@
         <main>
             <aside id="menu">
                 <nav>
-                    <div class="headerSpace"></div>
+                    <div class="space"></div>
                     <a href="../index.html" class="NavOption">
                         <div class="optionIcon">
-                            <img src="../images/icons/Dark Theme/Home/Selected.svg" alt="">
+                            <img src="../images/icons/Dark Theme/Home/Default.svg" alt="">
                         </div>
                         <div class="optionText">Página Inicial</div>
                     </a>
                     <a href="explore.html" class="NavOption">
                         <div class="optionIcon">
-                            <img src="../images/icons/Dark Theme/Search/Default.svg" alt="">
+                            <img src="../images/icons/Dark Theme/Explore/Default.svg" alt="">
                         </div>
                         <div class="optionText">Explorar</div>
                     </a>
@@ -70,7 +77,7 @@
                     </a>
                     <a href="userProfile.html" class="NavOption">
                         <div class="optionIcon">
-                            <img src="../images/icons/Dark Theme/Profile/Default.svg" alt="">
+                            <img src="../images/icons/Dark Theme/Profiles/Selected.svg" alt="">
                         </div>
                         <div class="optionText">Perfil</div>
                     </a>
@@ -99,11 +106,15 @@
             </aside>
 
             <aside id="feed">
-                
+                <div id="banner">
+                    <div class="userIconProfile">
+                        <img src="../images/userIcons/darkami.png" alt="">
+                    </div>
+                </div>
             </aside>
 
             <aside id="topics">
-                <div class="headerSpace"></div>
+                <div class="space"></div>
                 <div class="topicsSections">
                     <h3>O que está acontecendo?</h3>
                     <a href="#" class="topic">
