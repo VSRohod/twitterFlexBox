@@ -16,7 +16,7 @@
 
 #banner{
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-image: url(../../images/banners/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -38,4 +38,37 @@
     width: 100%;
     height: 100%;
     border-radius: 100%;
+}
+
+/* main */
+#editProfileSection{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+
+#editProfileSection button{
+    background-color: transparent;
+    border: white 1px solid;
+    margin: 0px 20px;
+}
+
+#bioProfile{
+    width: 100%;
+}
+
+#userBio{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    color: white;
+    line-height: 25px;
+}
+#userBio img{
+    width: 15px;
+    height: 15px;
+    margin: 0px 5px;
 }
