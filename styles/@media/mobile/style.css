@@ -46,7 +46,7 @@
     #navMobile{
         display: flex;
         flex-direction: row;
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 60px;
         bottom: 0%;
