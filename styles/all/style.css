@@ -309,6 +309,10 @@ nav{
     align-items: center;
 }
 
+/* Mobile Options */
+#UserMenuMobile, #headerSpace, #navMobile{
+    display: none;
+}
 
 /* INTERACTIONS */
 button:hover{
